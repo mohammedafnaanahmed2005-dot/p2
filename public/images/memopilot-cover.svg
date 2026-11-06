@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="72" y1="34" x2="1092" y2="728" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#211B36"/>
+      <stop offset=".55" stop-color="#131522"/>
+      <stop offset="1" stop-color="#0C101A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(380 276 -276 380 730 337)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A993FF" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#A993FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientTransform="matrix(85 102 -108 90 730 347)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0E9FF"/>
+      <stop offset=".38" stop-color="#B9A6FF"/>
+      <stop offset="1" stop-color="#765CE1"/>
+    </radialGradient>
+    <linearGradient id="orbit" x1="365" y1="139" x2="969" y2="574" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D2C5FF" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#8271E8" stop-opacity=".13"/>
+    </linearGradient>
+    <filter id="blur" x="420" y="52" width="650" height="600" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="42"/>
+    </filter>
+    <filter id="shadow" x="0" y="0" width="1200" height="720" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#06060B" flood-opacity=".5"/>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#D9D0FF" fill-opacity=".16"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="720" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="720" rx="28" fill="url(#grid)" opacity=".55"/>
+  <ellipse cx="751" cy="355" rx="276" ry="237" fill="#9479F5" fill-opacity=".42" filter="url(#blur)"/>
+  <path d="M102 405C210 321 299 303 428 337s179 16 226-28" stroke="#C9BEFF" stroke-opacity=".24" stroke-width="1.5"/>
+  <path d="M105 435C203 354 287 338 408 367s172 10 232-38" stroke="#C9BEFF" stroke-opacity=".13"/>
+  <text x="91" y="219" fill="#D2C5FF" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3">A PERSONAL AI ASSISTANT</text>
+  <text x="88" y="284" fill="#F2EEFF" font-family="Arial,sans-serif" font-size="43" font-weight="700" letter-spacing="-2">MemoPilot</text>
+  <text x="90" y="332" fill="#B9ACF1" font-family="Arial,sans-serif" font-size="37" font-weight="700" letter-spacing="-1">AI</text>
+  <path d="M91 361h246" stroke="#DED6FF" stroke-opacity=".27"/>
+  <text x="92" y="394" fill="#B9B4C9" font-family="Arial,sans-serif" font-size="13" letter-spacing=".8">MEMORY · INFORMATION · AUTOMATION</text>
+  <g stroke="#D5C9FF" stroke-opacity=".5" stroke-width="1.5">
+    <path d="M171 496v26m-13-13h26"/><path d="M362 469v22m-11-11h22"/>
+    <path d="M470 202v18m-9-9h18"/><path d="M304 129v14m-7-7h14"/>
+  </g>
+  <g fill="#E8E0FF">
+    <circle cx="171" cy="496" r="4"/><circle cx="362" cy="469" r="3"/>
+    <circle cx="470" cy="202" r="4"/><circle cx="304" cy="129" r="3"/>
+  </g>
+  <g>
+    <ellipse cx="754" cy="351" rx="290" ry="111" transform="rotate(-27 754 351)" stroke="url(#orbit)" stroke-width="1.5"/>
+    <ellipse cx="754" cy="351" rx="259" ry="166" transform="rotate(32 754 351)" stroke="#C5B6FF" stroke-opacity=".28"/>
+    <ellipse cx="754" cy="351" rx="210" ry="76" transform="rotate(78 754 351)" stroke="#C5B6FF" stroke-opacity=".18"/>
+    <circle cx="754" cy="351" r="136" fill="url(#glow)"/>
+    <circle cx="754" cy="351" r="79" fill="url(#core)" fill-opacity=".18" stroke="#D9CFFF" stroke-opacity=".5"/>
+    <circle cx="754" cy="351" r="57" fill="url(#core)"/>
+    <circle cx="735" cy="330" r="14" fill="#fff" fill-opacity=".24"/>
+    <path d="M753 316c-17 0-30 13-30 30 0 5 1 10 4 14l-7 16 19-4a30 30 0 1 0 14-56Z" fill="#FFF" fill-opacity=".87"/>
+    <circle cx="746" cy="346" r="2.6" fill="#725ACD"/>
+    <circle cx="758" cy="346" r="2.6" fill="#725ACD"/>
+    <path d="M745 356c5 5 12 5 17 0" stroke="#725ACD" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <g fill="#E8E0FF">
+    <circle cx="510" cy="271" r="5"/><circle cx="967" cy="258" r="7"/>
+    <circle cx="876" cy="530" r="5"/><circle cx="600" cy="500" r="4"/>
+    <circle cx="923" cy="164" r="3"/><circle cx="1040" cy="412" r="4"/>
+  </g>
+  <g stroke="#D0C2FF" stroke-opacity=".55">
+    <path d="M963 250v16m-8-8h16"/><path d="M511 263v16m-8-8h16"/>
+    <path d="M1039 404v16m-8-8h16"/>
+  </g>
+  <text x="91" y="626" fill="#F2EEFF" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="3">IDEAS, IN ORBIT.</text>
+  <text x="91" y="651" fill="#AAA5BD" font-family="Arial,sans-serif" font-size="12" letter-spacing="1.3">ORIGINAL CONCEPT ART · NOT A PRODUCT SCREENSHOT</text>
+</svg>

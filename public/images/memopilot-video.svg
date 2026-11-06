@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="101" y1="48" x2="1163" y2="691" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#241B3A"/>
+      <stop offset=".52" stop-color="#161625"/>
+      <stop offset="1" stop-color="#0B1018"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0" cy="0" r="1" gradientTransform="matrix(336 230 -235 343 670 350)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A88EFF" stop-opacity=".62"/>
+      <stop offset="1" stop-color="#A88EFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="386" y1="122" x2="871" y2="618" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0E9FF"/>
+      <stop offset="1" stop-color="#A18AF8" stop-opacity=".16"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0v44" stroke="#D8CEFF" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="720" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="720" rx="24" fill="url(#grid)"/>
+  <ellipse cx="660" cy="359" rx="331" ry="262" fill="url(#light)"/>
+  <ellipse cx="660" cy="359" rx="288" ry="132" transform="rotate(-29 660 359)" stroke="url(#ring)" stroke-opacity=".76" stroke-width="2"/>
+  <ellipse cx="660" cy="359" rx="270" ry="164" transform="rotate(35 660 359)" stroke="#BDAEFF" stroke-opacity=".42" stroke-width="2"/>
+  <ellipse cx="660" cy="359" rx="216" ry="76" transform="rotate(82 660 359)" stroke="#E0D7FF" stroke-opacity=".26"/>
+  <circle cx="660" cy="359" r="109" fill="#B39BFF" fill-opacity=".16" stroke="#E2D8FF" stroke-opacity=".65" stroke-width="2"/>
+  <circle cx="660" cy="359" r="77" fill="#A58BFF"/>
+  <circle cx="637" cy="332" r="18" fill="#FFF" fill-opacity=".22"/>
+  <path d="M659 321c-22 0-40 18-40 40 0 7 2 13 5 18l-9 22 25-6a40 40 0 1 0 19-74Z" fill="#FFF" fill-opacity=".94"/>
+  <circle cx="649" cy="359" r="3.5" fill="#745AD2"/>
+  <circle cx="666" cy="359" r="3.5" fill="#745AD2"/>
+  <path d="M648 372c6 7 16 7 23 0" stroke="#745AD2" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="430" cy="289" r="8" fill="#C5B5FF"/>
+  <circle cx="870" cy="257" r="11" fill="#87E3D7"/>
+  <circle cx="792" cy="544" r="8" fill="#F6D18E"/>
+  <circle cx="517" cy="531" r="6" fill="#D5CAFF"/>
+  <circle cx="953" cy="421" r="6" fill="#D5CAFF"/>
+  <path d="M430 271v36m-18-18h36m422-50v36m-18-18h36m-78 305v36m-18-18h36" stroke="#F0E9FF" stroke-opacity=".75" stroke-width="2"/>
+  <path d="M221 587H1059" stroke="#D9CEFF" stroke-opacity=".18"/>
+  <text x="80" y="105" fill="#D2C4FF" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="4">NEBIUS × NVIDIA GLOBAL AI HACKATHON 2026</text>
+  <text x="80" y="646" fill="#F5F1FF" font-family="Arial,sans-serif" font-size="29" font-weight="700" letter-spacing="1">MEMOPILOT AI</text>
+  <text x="82" y="678" fill="#B8B1CA" font-family="Arial,sans-serif" font-size="14" letter-spacing="2">A PERSONAL AI ASSISTANT · ORIGINAL CONCEPT ART</text>
+</svg>
